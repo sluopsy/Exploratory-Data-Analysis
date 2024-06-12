@@ -19,11 +19,9 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 ```
 
-# Project Summary
 
 
-
-```{r libraries, message = FALSE, warning = FALSE, results = 'hide'}
+```{r libraries, include = FALSE, message = FALSE, warning = FALSE, results = 'hide'}
 library(rio) # for importing data
 library(tidyverse) # for tidyverse tools
 library(psych) # for descriptive statistics
